@@ -58,6 +58,7 @@
     />
     <DiaryDetail
       :move="moveDiaryDetail"
+      :diaryContent="diaryContent"
       :recordingUrl="recordingUrl"
       @closeDetail="this.moveDiaryDetail = !this.moveDiaryDetail"
     />
@@ -118,7 +119,7 @@ export default {
       userId: "testUser", // sessionId를 userId로 대체
       recordingTest: null,
       recordingUrl: null,
-
+      diaryContent: [],
       OV: undefined,
       session: undefined,
       mainStreamManager: undefined,
@@ -204,7 +205,7 @@ export default {
           .connect(token, { clientData: this.myUserName })
           .then((res) => {
             // --- Get your own camera stream with the desired properties ---
-
+            console.log(res)
             let publisher = this.OV.initPublisher(undefined, {
               audioSource: undefined, // The source of audio. If undefined default microphone
               videoSource: undefined, // The source of video. If undefined default webcam
@@ -302,8 +303,11 @@ export default {
           console.log(res.data.url);
           this.recordingUrl = res.data.url;
           this.leaveSession();
+          axios.get(`https://eab5b3d9-43de-4dee-bee6-77ceb04377eb.mock.pstmn.io/diary/1`)
+          .then(response => {
+            this.diaryContent = response.data
+          })
           this.moveDiaryDetail = !this.moveDiaryDetail;
-
           // this.recordingUrl =
           //   "https://localhost:4443/openvidu/recordings/testUser-20/testUser-20.mp4";
         });

@@ -15,7 +15,7 @@
     </va-card>
   </div>
   <DiaryDetail 
-    :open="openDetail"
+    :move="openDetail"
     :diaryContent="diaryContent"
     @closeDetail="this.openDetail = !this.openDetail"/>
 </template>
