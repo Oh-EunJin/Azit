@@ -56,9 +56,8 @@
                     </div>
                     <div v-else-if="state.value === 2">
                         <DiaryDetailEmotion
-                            class="back"
-                            :diaryContentDetail="state.diaryContentDetail"
-                        />
+                        class="back"
+                        :diaryContentDetail="state.diaryContentDetail"/>
                     </div>
                 </section>
             </div>
@@ -106,6 +105,7 @@ export default {
             contentVisible: false,
             value: 1,
             diaryContentDetail: computed(() => props.diaryContent),
+
         });
 
         const closeDetail = function () {
