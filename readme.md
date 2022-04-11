@@ -147,7 +147,7 @@ Web Speech API는 크롬 브라우저에서 사용 가능한 api로 높은 인�
 
 ### 1) 메인 화면(fullpage.js)
 
-![메인 화면](./README.assets/Azit_메인 화면.gif)
+![Azit_메인 화면](https://user-images.githubusercontent.com/76689086/162675521-c637e8b2-231a-48fc-ab92-bf18cf93d6d2.gif)
 
 fullpage.js를 사용하여 원스크롤 페이지 방식으로 제작한 메인 화면입니다.
 
@@ -155,13 +155,13 @@ fullpage.js를 사용하여 원스크롤 페이지 방식으로 제작한 메인
 
 ### 2) 회원가입 및 로그인 모달
 
-![회원가입 및 로그인 모달](./README.assets/Azit_회원가입 및 로그인 모달.gif)
+![Azit_회원가입 및 로그인 모달](https://user-images.githubusercontent.com/76689086/162675603-7455074e-39d2-425a-afb7-39178a05e7a5.gif)
 
 기본적인 모달창을 이용해 회원가입과 로그인 창을 구현 하였습니다.
 
 ### 3) 일기장 목록 및 내용,감정
 
-![일기장 목록 및 내용, 감정](./README.assets/Azit_일기장 목록 및 내용, 감정.gif)
+![Azit_일기장 목록 및 내용, 감정](https://user-images.githubusercontent.com/76689086/162675577-47bebe5f-8960-4932-b432-0fd68276bc82.gif)
 
 이전에 작성한 일기장을 클릭하여 일기장 내용, 저장된 동영상, 감정 분석 결과등을 확인 할 수 있습니다.
 
@@ -169,19 +169,19 @@ fullpage.js를 사용하여 원스크롤 페이지 방식으로 제작한 메인
 
 ### 4) 방 생성
 
-![방검색 및 새로운 일기 작성](./README.assets/Azit_방검색 및 새로운 일기 작성.gif)
+![Azit_방검색 및 새로운 일기 작성](https://user-images.githubusercontent.com/76689086/162675562-20b73737-c610-4f12-a4c9-1e20298577d0.gif)
 
 방을 새로 만들고 싶을 경우 `일기작성` - `방생성` 버튼을 눌러 방을 만들 수 있습니다.
 
 ### 5) 방 참여
 
-![그룹일기 참여](./README.assets/Azit_그룹일기 참여.gif)
+![Azit_그룹일기 참여](https://user-images.githubusercontent.com/76689086/162675499-1b4adf9e-c1f5-47b5-9569-49f894579e18.gif)
 
 방에 참가하고 싶을 경우 `일기작성` - `방검색` 버튼을 눌러 상대방의 아이디를 검색해 방에 참가 할 수 있습니다.
 
 ### 6) 일기작성 참여(4인 참여 녹화시작 버튼 활성화) 및 채팅가능
 
-![그룹일기 녹화 및 채팅 화면](./README.assets/Azit_그룹일기 녹화 및 채팅 화면.gif)
+![Azit_그룹일기 녹화 및 채팅 화면](https://user-images.githubusercontent.com/76689086/162675489-c26d49b7-e7d4-40d3-93a2-47d9512f9dc3.gif)
 
 방에 들어오게 되면 채팅기능이 활성화됩니다.
 
@@ -191,7 +191,7 @@ fullpage.js를 사용하여 원스크롤 페이지 방식으로 제작한 메인
 
 ### 7) 자신의 차례에 toss버튼 활성화(다음 사람 녹음)
 
-![toss 버튼을 이용한 다음 사람 녹음](./README.assets/Azit_toss 버튼을 이용한 다음 사람 녹음.gif)
+![Azit_toss 버튼을 이용한 다음 사람 녹음](https://user-images.githubusercontent.com/76689086/162675480-fbc738b9-0865-45c1-8408-2b244f07eb75.gif)
 
 이전 사람이 `Toss`버튼을 눌르면 다음 사람 `Toss` 버튼이 활성화 됩니다.
 
@@ -199,7 +199,7 @@ fullpage.js를 사용하여 원스크롤 페이지 방식으로 제작한 메인
 
 ### 8) 저장된 일기 확인창
 
-![저장된 일기 확인](./README.assets/Azit_저장된 일기 확인.gif)
+![Azit_저장된 일기 확인](https://user-images.githubusercontent.com/76689086/162675592-0ad1de58-da2c-4a85-a551-a7834bdfed09.gif)
 
 일기를 저장하면 일기 상세 내용을 확인 할 수 있습니다.
 
@@ -207,7 +207,7 @@ fullpage.js를 사용하여 원스크롤 페이지 방식으로 제작한 메인
 
 ### 9) 내용 수정 가능
 
-![저장된 일기 내용 수정](./README.assets/Azit_저장된 일기 내용 수정.gif)
+![Azit_저장된 일기 내용 수정](https://user-images.githubusercontent.com/76689086/162675585-0982e150-4dab-4956-86ed-e085996e36ae.gif)
 
 음성 인식을 통해 텍스트로 변환된 내용 중 오탈자를 수정하여 다시 저장 할 수 있습니다.
 
